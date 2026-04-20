@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/widgets.dart';
 // ══════════════════════════════════════════════════════
 // RideDetailScreen
 // Halaman detail layanan / perjalanan.
@@ -173,15 +173,18 @@ class RideDetailScreen extends StatelessWidget {
                       _infoRow('Ke', toLocation!),
                     if (price != null) _infoRow('Harga', price!),
                     const SizedBox(height: 8),
-                    const Text(
-                      'RideDetailScreen(\n'
-                      '  serviceName: "$serviceName", // ← data dikirim\n'
-                      ')',
-                      style: TextStyle(
-                          fontSize: 10,
-                          color: Color(0xFF0077FF),
-                          fontFamily: 'monospace',
-                          height: 1.6),
+                    Text(
+                      '''
+                    RideDetailScreen(
+                      serviceName: "$serviceName", // <- data dikirim
+                    )
+                    ''',
+                      style: const TextStyle(
+                        fontSize: 10,
+                        color: Color(0xFF0077FF),
+                        fontFamily: 'monospace',
+                        height: 1.6,
+                      ),
                     ),
                   ],
                 ),
