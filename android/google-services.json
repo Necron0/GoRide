@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440971602937",
+    "project_id": "goride-b034e",
+    "storage_bucket": "goride-b034e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440971602937:android:d79c41093e8640829ceb28",
+        "android_client_info": {
+          "package_name": "com.halu.GoRide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJDiuFwG6O9jftGaKG7KIfWm4A7pQtZf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
